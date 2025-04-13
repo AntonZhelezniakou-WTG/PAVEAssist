@@ -1,0 +1,25 @@
+<Project>
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<LangVersion>latestMajor</LangVersion>
+		<Features>strict</Features>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Tailcalls>true</Tailcalls>
+		<RootNamespace>PAVEAssist</RootNamespace>
+		<DebugType>pdbonly</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<Configurations>Debug;Release</Configurations>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<RepositoryRoot>$(MSBuildThisFileDirectory)..\</RepositoryRoot>
+		<SolutionRoot>$(MSBuildThisFileDirectory)</SolutionRoot>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<BaseOutputPath>$(RepositoryRoot)bin</BaseOutputPath>
+	</PropertyGroup>
+</Project>
